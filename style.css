@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#título-menusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior {
+    background-image: url(Imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column
+}
+
+.ícone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrosel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #FFFFFF;
+    border:0px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #31a8db;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0b124196;
+    transition-duration: 0.5s;
+}
